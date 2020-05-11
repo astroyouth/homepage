@@ -1,0 +1,73 @@
+.parallax {
+
+  }
+.about{
+    font-family: sans-serif;
+    text-align: left;
+}
+.navbar{
+    margin-bottom: 20px;
+    max-width: 100px;
+ }
+.jumbotron{
+    max-width: 600px;
+    float: center;
+    margin : 60px auto;
+    background-color: #393749;
+    color: azure;
+    border-radius: 25px;
+    Position: relative;
+}
+.hrStyleTwo {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+body {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Nunito", sans-serif;
+}
+.navbar{
+    color: rgb(31, 35, 230);
+}
+#headingGroup span {
+    color: rgb(31, 35, 230);
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 2rem;
+}
+.lead{
+    color: white;
+}
+.img-fluid{
+    border-radius: 25px;
+    transition: 300ms;
+}
+h2{
+    color: white;
+}
+p{
+    background-color: #393749;
+    border-radius: 25px;
+    padding: 2rem;
+}
+.navbar-dark .navbar-brand{
+    color: rgb(31, 35, 230);
+}
+.blurImage {
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+    
+  }
